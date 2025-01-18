@@ -1,0 +1,5 @@
+Instead of `width: calc(50% + 10%);`, consider these alternatives:
+
+* **Use fixed pixel values:** `width: calc(50% + 10px);`
+* **Use viewport units:** `width: calc(50vw + 10px);`
+* **Use a different sizing method:** if possible, use a more straightforward approach for setting the element's width that doesn't rely on this calculation.
